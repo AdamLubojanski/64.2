@@ -31,8 +31,11 @@ void obrazek() {
 int main(int argc, char** argv) {
 int recurentCounter = 0;
 bool recurentFlag = true;
-obrazek();
-recurentFlag = false;
-cout << recurentCounter
+if (isRecurent() && recurentFlag) {
+      cout << "Obrazek do zadania 2: " << endl;
+      obrazek();
+      recurentFlag = false;
+      cout << recurentCounter
+}
 return 0;//koniec
 }
