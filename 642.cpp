@@ -36,6 +36,7 @@ if (isRecurent() && recurentFlag) {
       obrazek();
       recurentFlag = false;
       cout << recurentCounter
+        cout<<endl<<"idę na śniadanie";
 }
 return 0;//koniec
 }
