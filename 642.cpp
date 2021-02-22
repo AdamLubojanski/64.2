@@ -3,7 +3,7 @@
 using namespace std;
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
+char tab[21][21];
 ifstream in("dane_obrazki.txt");//otwarcie pliku 
 bool isRecurent() {
   for (int i = 0; i < 10; i++) {
@@ -35,7 +35,6 @@ if (isRecurent() && recurentFlag) {
       obrazek();
       recurentFlag = false;
       cout << recurentCounter
-        cout<<endl<<"idę na śniadanie";
 }
 return 0;//koniec
 }
