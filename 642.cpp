@@ -25,6 +25,7 @@ void obrazek() {
     cout << endl;
   }
   cout << endl;
+  file.close();//zamknięcie pliku
 }
 
 int main(int argc, char** argv) {
